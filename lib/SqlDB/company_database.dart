@@ -37,7 +37,7 @@ CREATE TABLE $tableNotes (
   ${CompanyModelField.id} $idType, 
   ${CompanyModelField.isImportant} $boolType,
   ${CompanyModelField.title} $textType,
- 
+ ${CompanyModelField.number} $integerType
  
   )
 ''');
